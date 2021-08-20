@@ -5,10 +5,12 @@
     "description": "A pack for Symfony projects on Platform.sh",
     "require": {
         "sensio/framework-extra-bundle": "^6.1",
+        "symfony/debug-pack": "*",
         "symfony/form": "*",
         "symfony/http-client": "*",
         "symfony/intl": "*",
         "symfony/mailer": "*",
+        "symfony/maker-bundle": "^1.0",
         "symfony/messenger": "*",
         "symfony/monolog-bundle": "^3.1",
         "symfony/notifier": "*",
