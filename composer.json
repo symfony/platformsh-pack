@@ -1,0 +1,28 @@
+{
+    "name": "symfony/platformsh-pack",
+    "type": "symfony-pack",
+    "license": "MIT",
+    "description": "A pack for Symfony projects on Platform.sh",
+    "require": {
+        "sensio/framework-extra-bundle": "^6.1",
+        "symfony/form": "*",
+        "symfony/http-client": "*",
+        "symfony/intl": "*",
+        "symfony/mailer": "*",
+        "symfony/messenger": "*",
+        "symfony/monolog-bundle": "^3.1",
+        "symfony/notifier": "*",
+        "symfony/orm-pack": "*",
+        "symfony/process": "*",
+        "symfony/security-bundle": "*",
+        "symfony/serializer-pack": "*",
+        "symfony/string": "*",
+        "symfony/translation": "*",
+        "symfony/twig-pack": "*",
+        "symfony/validator": "*"
+    },
+    "require-dev": {
+        "symfony/debug-pack": "*",
+        "symfony/maker-bundle": "^1.0"
+    }
+}
